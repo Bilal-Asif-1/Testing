@@ -1,13 +1,25 @@
-import Heading1 from './Heading1.jsx';
 import Description from './Description.jsx';
 import './App.css';
 
 function App() {
+  let feature = ['good', 'bad', 'poor'];
+
   return (
     <div className="style">
-      <Heading1 heading="HI I AM BILAL" />
-      <Description desc=" I am a web developer and ia am doing great things now i dont have enough time for me and i really want to learn more and more things " />
+      <Description
+        desc="HI I AM BILAL"
+        price={3000}
+        nam={{ a: 'bilal' }}
+        feat={feature}
+      />
+      <Description
+        desc="HI I AM BILAL"
+        price={5000}
+        nam={{ a: 'bilal' }}
+        feat={feature}
+      />
     </div>
   );
 }
+
 export default App;
