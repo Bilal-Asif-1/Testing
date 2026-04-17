@@ -1,3 +1,15 @@
+import Description from './Description';
+
+function App() {
+  return (
+    <div>
+      <Description />
+    </div>
+  );
+}
+
+export default App;
+
 // import Description from './Description.jsx';
 // import './App.css';
 
@@ -24,15 +36,15 @@
 
 // export default App;
 
-import Description from './Description';
+// import Description from './Description';
 
-function App() {
-  return (
-    <div>
-      <Description userName="bilal" color="red" />
-      <Description userName="Ahmad" color="blue" />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <Description userName="bilal" color="red" />
+//       <Description userName="Ahmad" color="blue" />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
