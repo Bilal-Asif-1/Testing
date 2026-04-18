@@ -1,22 +1,22 @@
-// function print() {
-//   console.log('HELLe');
-// }
+function print() {
+  console.log('HELLOOO');
+}
 
-// function hover() {
-//   console.log('weqwe');
-// }
+function hover() {
+  console.log('HOVERRRR');
+}
 
-// function Description() {
-//   return (
-//     <div>
-//       <p>
-//         <button onMouseOver={hover}>Click</button>
-//       </p>
-//     </div>
-//   );
-// }
+function Description() {
+  return (
+    <div>
+      <p>
+        <button onMouseOver={hover}>Click</button>
+      </p>
+    </div>
+  );
+}
 
-// export default Description;
+export default Description;
 
 // function Description({ desc, price, feat, nam }) {
 //   const list = feat.map((el) => <li key={el}>{el}</li>);
